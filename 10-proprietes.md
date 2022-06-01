@@ -16,25 +16,35 @@ display: flex;
 
 ## Pour l'élément parent
 
-* flex-direction : la direction, horizontale ou verticale (row / column).
-* flex-wrap : permettre ou non aux éléments de se mettre sur plusieurs lignes (nowrap / wrap / wrap-reverse)
-* flex-flow : cette propriété combine flex-direction et flex-wrap.
+Propriétés pour déterminer le comportement général de la flexbox:
+
+* `flex-direction` : la direction, horizontale ou verticale (`row` ou `column`). Par défaut, cette valeur est horizontale.
+* `flex-wrap` : permettre ou non aux éléments de se mettre sur plusieurs lignes (`nowrap` / `wrap` / `wrap-reverse`)
+* `flex-flow` : cette propriété combine flex-direction et flex-wrap.
+
+```
+.container {
+  flex-flow: column wrap;
+}
+```
 
 ### Alignement:
 
-* justify-content : alignement sur l'axe principal. Valeurs possibles: flex-start, flex-end, center, space-between, space-around.
-* align-items: alignement perpendiculaire. Valeurs possibles: stretch, flex-start, flex-end, center, baseline.
-* align-content: comportement si on a plusieurs lignes de flex-items. Mêmes valeurs que justify-content, ainsi que stretch.
+Propriétés s'appliquant sur l'élément parent, pour déterminer l'alignement des enfants:
+
+* `justify-content` : alignement sur l'axe principal (par défaut: horizontal). Valeurs possibles: `flex-start` (valeur par défaut), `flex-end`, `center`, `space-between`, `space-around`.
+* `align-items` : alignement perpendiculaire à l'axe principal (par défaut: vertical). Valeurs possibles: `stretch` (valeur par défaut), `flex-start`, `flex-end`, `center`, `baseline`.
+* `align-content` : définit le comportement si on a plusieurs lignes de flex-items. Mêmes valeurs que `justify-content`, ainsi que `stretch`.
 
 ## Pour les éléments enfants
 
-* order: permet de donner un chiffre, indiquant sa place.
-* flex-grow: chiffre sans unité, permettant de donner son facteur de taille comparé aux autres éléments.
-* flex-shrink: indique si on autorise l'élément à rétrécir.
-* flex-basis: taille par défaut de l'élément.
-* flex: propriété qui regroupe flex-grow, flex-shrink et flex-basis. La valeur par défaut est: 0 1 auto.
+* `order` : permet de donner un chiffre, indiquant sa place.
+* `flex-grow` : chiffre sans unité (0 ou 1), permettant de donner son facteur de taille comparé aux autres éléments.
+* `flex-shrink` : indique si on autorise l'élément à rétrécir.
+* `flex-basis` : taille par défaut de l'élément. Par défaut: `auto`.
+* `flex` : propriété qui regroupe `flex-grow`, `flex-shrink` et `flex-basis`. La valeur par défaut est: `0 1 auto`.
 
-* align-self: Alignement. Similaire au "align-items" de l'élément parent. Valeurs possibles: auto, flex-start, flex-end, center, baseline, stretch.
+* `align-self` : Alignement. Similaire au "align-items" de l'élément parent. Valeurs possibles: `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `stretch`.
 
 ## Un exemple
 
