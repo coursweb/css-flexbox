@@ -35,3 +35,11 @@ display: flex;
 * flex: propriété qui regroupe flex-grow, flex-shrink et flex-basis. La valeur par défaut est: 0 1 auto.
 
 * align-self: Alignement. Similaire au "align-items" de l'élément parent. Valeurs possibles: auto, flex-start, flex-end, center, baseline, stretch.
+
+## Un exemple
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOZxmyx" data-editable="true" data-user="eracom" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/eracom/pen/jOZxmyx">
+  Product Page</a> 
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
