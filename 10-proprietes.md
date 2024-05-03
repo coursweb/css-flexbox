@@ -36,6 +36,10 @@ Propriétés s'appliquant sur l'élément parent, pour déterminer l'alignement 
 * `align-items` : alignement perpendiculaire à l'axe principal (par défaut: vertical). Valeurs possibles: `stretch` (valeur par défaut), `flex-start`, `flex-end`, `center`, `baseline`.
 * `align-content` : définit le comportement si on a plusieurs lignes de flex-items. Mêmes valeurs que `justify-content`, ainsi que `stretch`.
 
+![Les modes possibles pour justify-content](img/flexbox-justify-content.svg)
+
+![Les modes possibles pour align-items](img/flexbox-align-items.svg)
+
 ## Pour les éléments enfants
 
 * `order` : permet de donner un chiffre, indiquant sa place.
