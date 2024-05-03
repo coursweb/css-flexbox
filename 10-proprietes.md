@@ -32,7 +32,7 @@ Propriétés pour déterminer le comportement général de la flexbox:
 
 Propriétés s'appliquant sur l'élément parent, pour déterminer l'alignement des enfants:
 
-* `justify-content` : alignement sur l'axe principal (par défaut: horizontal). Valeurs possibles: `flex-start` (valeur par défaut), `flex-end`, `center`, `space-between`, `space-around`.
+* `justify-content` : alignement sur l'axe principal (par défaut: horizontal). Valeurs possibles: `flex-start` (valeur par défaut), `flex-end`, `center`, `space-between`, `space-around` et `space-evenly`.
 * `align-items` : alignement perpendiculaire à l'axe principal (par défaut: vertical). Valeurs possibles: `stretch` (valeur par défaut), `flex-start`, `flex-end`, `center`, `baseline`.
 * `align-content` : définit le comportement si on a plusieurs lignes de flex-items. Mêmes valeurs que `justify-content`, ainsi que `stretch`.
 
