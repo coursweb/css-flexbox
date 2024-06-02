@@ -74,7 +74,7 @@ Questions d'auto-évaluation sur Flexbox.
 
 <details>
   <summary>Voir la réponse</summary>
-  <p>Vrai.</p>
+  <p>Vrai. C'est un principe fondamental de Flexbox (et aussi Grid CSS).</p>
 </details>
 
 ---
@@ -98,5 +98,5 @@ Questions d'auto-évaluation sur Flexbox.
 
 <details>
   <summary>Voir la réponse</summary>
-  <p>Vrai.</p>
+  <p>Vrai. Voir les <a href="proprietes.html">propriétés</a>.</p>
 </details>
