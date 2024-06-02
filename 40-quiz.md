@@ -14,7 +14,7 @@ Questions d'auto-évaluation sur Flexbox.
 - [ ] position : flex
 
 <details>
-  <summary>Réponse</summary>
+  <summary>Voir la réponse</summary>
   <p><code>display : flex</code> permet d'initialiser Flexbox.</p>
 </details>
 
@@ -28,9 +28,9 @@ Questions d'auto-évaluation sur Flexbox.
 - [ ] space-around
 
 <details>
-  <summary>Réponse</summary>
+  <summary>Voir la réponse</summary>
   <p>Les trois valeurs d'espacement possibles sont:<br> 
-  <code>space-between</code>, <code>space-around</code>, <code>space-evenly</code>.</p>
+  <code>space-between</code>, <code>space-around</code>, <code>space-evenly</code>. Voir <a href="proprietes.html">propriétés</a></p>
   <p>La valeur <code>space-inside</code> n'existe pas.</p>
 </details>
 
@@ -44,7 +44,7 @@ Questions d'auto-évaluation sur Flexbox.
 - [ ] Ils recouvrent les autres éléments de la page.
 
 <details>
-  <summary>Réponse</summary>
+  <summary>Voir la réponse</summary>
   <p>1 et 3 sont justes.</p>
   <p>Leur largeur sera égale, et remplira l'espace disponible.</p>
 </details>
@@ -58,10 +58,14 @@ Questions d'auto-évaluation sur Flexbox.
   <p>Vrai.</p>
 </details>
 
+---
+
 <details>
   <summary>Il est déconseillé d'utiliser Flexbox plusieurs fois sur une même page web.</summary>
   <p>Faux. Il n'y a aucun problème à l'utiliser plusieurs fois sur une page.</p>
 </details>
+
+---
 
 <details>
   <summary>L'ordre d'affichage des éléments Flex peut être modifié en CSS avec order.</summary>
