@@ -42,13 +42,25 @@ Propriétés s'appliquant sur l'élément parent, pour déterminer l'alignement 
 
 ## Pour les éléments enfants
 
+### La propriété `order`
+
 * `order` : permet de donner un chiffre, indiquant sa place.
-* `flex-grow` : chiffre sans unité (0 ou 1), permettant de donner son facteur de taille comparé aux autres éléments.
+
+Par défaut, tous les éléments on un réglage "order" de zéro. Un élément ayant `order: 1` (ou plus élévé) sera placé en dernier. Un élément ayant `order: -1` viendra se placer en tête.
+
+### grow / shrink / basis
+
+Ces trois propriétés interagissent pour déterminer la taille des éléments:
+
+* `flex-grow` : chiffre sans unité (0 ou 1), permettant de donner son facteur de taille comparé aux autres éléments. 
 * `flex-shrink` : indique si on autorise l'élément à rétrécir.
-* `flex-basis` : taille par défaut de l'élément. Par défaut: `auto`.
+* `flex-basis` : taille de base de l'élément. Il peut s'agir d'une taille fixe donnée en `px`, en `em` ou en `%`. Par défaut: `auto`, ce qui veut dire qu'elle est adaptée selon la largeur du contenu.
+ 
 * `flex` : propriété qui regroupe `flex-grow`, `flex-shrink` et `flex-basis`. La valeur par défaut est: `0 1 auto`.
 
-* `align-self` : Alignement. Similaire au "align-items" de l'élément parent. Valeurs possibles: `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `stretch`.
+### align-self
+
+* `align-self` : Alignement. Similaire au "align-items" de l'élément parent, mais peut s'appliquer individuellement. Valeurs possibles: `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `stretch`.
 
 ## Un exemple
 
@@ -57,3 +69,4 @@ Propriétés s'appliquant sur l'élément parent, pour déterminer l'alignement 
   Product Page</a> 
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
