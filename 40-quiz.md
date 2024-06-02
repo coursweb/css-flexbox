@@ -30,7 +30,7 @@ Questions d'auto-évaluation sur Flexbox.
 <details>
   <summary>Voir la réponse</summary>
   <p>Les trois valeurs d'espacement possibles sont:<br> 
-  <code>space-between</code>, <code>space-around</code>, <code>space-evenly</code>. Voir <a href="proprietes.html">propriétés</a></p>
+  <code>space-between</code>, <code>space-around</code>, <code>space-evenly</code>. Voir <a href="proprietes.html">propriétés</a>.</p>
   <p>La valeur <code>space-inside</code> n'existe pas.</p>
 </details>
 
@@ -46,28 +46,43 @@ Questions d'auto-évaluation sur Flexbox.
 <details>
   <summary>Voir la réponse</summary>
   <p>1 et 3 sont justes.</p>
-  <p>Leur largeur sera égale, et remplira l'espace disponible.</p>
+  <p>Leur largeur sera égale, et remplira l'espace disponible. Voir <a href="methode-simple.html">méthode simple</a>.</p>
 </details>
 
 ---
 
 ## Questions "vrai ou faux"
 
+**La mise en page Flexbox s'applique sur les éléments enfants du conteneur.**
+
+- [ ] Vrai.
+- [ ] Faux.
+
 <details>
-  <summary>La mise en page Flexbox s'applique sur les éléments enfants du conteneur.</summary>
+  <summary>Voir la réponse</summary>
   <p>Vrai.</p>
 </details>
 
 ---
 
+**Il est déconseillé d'utiliser Flexbox plusieurs fois sur une même page web.**
+
+- [ ] Vrai.
+- [ ] Faux.
+
 <details>
-  <summary>Il est déconseillé d'utiliser Flexbox plusieurs fois sur une même page web.</summary>
+  <summary>Voir la réponse</summary>
   <p>Faux. Il n'y a aucun problème à l'utiliser plusieurs fois sur une page.</p>
 </details>
 
 ---
 
+**L'ordre d'affichage des éléments Flex peut être modifié en CSS avec order.**
+
+- [ ] Vrai.
+- [ ] Faux.
+
 <details>
-  <summary>L'ordre d'affichage des éléments Flex peut être modifié en CSS avec order.</summary>
+  <summary>Voir la réponse</summary>
   <p>Vrai.</p>
 </details>
