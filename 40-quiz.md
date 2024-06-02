@@ -46,7 +46,7 @@ Questions d'auto-évaluation sur Flexbox.
 <details>
   <summary>Voir la réponse</summary>
   <p>1 et 3 sont justes.</p>
-  <p>Leur largeur sera égale, et remplira l'espace disponible. Voir <a href="methode-simple.html">méthode simple</a> / <a href="https://cours-web.ch/css/selectors.html">sélecteurs CSS</a>.</p>
+  <p>Leur largeur sera égale, et remplira l'espace disponible. Voir <a href="methode-simple.html">méthode simple</a>.</p>
 </details>
 
 ---
@@ -60,7 +60,7 @@ Questions d'auto-évaluation sur Flexbox.
 
 <details>
   <summary>Voir la réponse</summary>
-  <p>La réponse 4 est juste. Voir <a href="methode-simple.html">méthode simple</a>.</p>
+  <p>La réponse 4 est juste. Voir <a href="methode-simple.html">méthode simple</a> / <a href="https://cours-web.ch/css/selectors.html">sélecteurs CSS</a>.</p>
 </details>
 
 ---
