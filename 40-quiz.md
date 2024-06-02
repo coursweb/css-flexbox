@@ -36,6 +36,21 @@ Questions d'auto-évaluation sur Flexbox.
 
 ---
 
+**3. Que se passe-t-il si on applique "flex:1" sur les éléments enfants d’une Flexbox?**
+
+- [ ] Ils sont de largeur égale.
+- [ ] Leur taille devient minuscule.
+- [ ] Ils occupent toute la largeur disponible.
+- [ ] Ils recouvrent les autres éléments de la page.
+
+<details>
+  <summary>Réponse</summary>
+  <p>1 et 3 sont justes.</p>
+  <p>Leur largeur sera égale, et remplira l'espace disponible.</p>
+</details>
+
+---
+
 ## Questions "vrai ou faux"
 
 <details>
