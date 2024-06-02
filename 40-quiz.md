@@ -49,6 +49,18 @@ Questions d'auto-évaluation sur Flexbox.
   <p>Leur largeur sera égale, et remplira l'espace disponible. Voir <a href="methode-simple.html">méthode simple</a>.</p>
 </details>
 
+** 4. Comment appliquer flex:1 sur les enfants directs de .row ?**
+
+- [ ] `.row { flex : 1 }`
+- [ ] `.row * { flex : 1 }`
+- [ ] `.row * > { flex : 1 }`
+- [ ] `.row > * { flex : 1 }`
+
+<details>
+  <summary>Voir la réponse</summary>
+  <p>La réponse 4 est juste. Voir <a href="methode-simple.html">méthode simple</a>.</p>
+</details>
+
 ---
 
 ## Questions "vrai ou faux"
@@ -77,7 +89,7 @@ Questions d'auto-évaluation sur Flexbox.
 
 ---
 
-**L'ordre d'affichage des éléments Flex peut être modifié en CSS avec order.**
+**L'ordre d'affichage des éléments Flex peut être modifié en CSS avec `order`.**
 
 - [ ] Vrai.
 - [ ] Faux.
