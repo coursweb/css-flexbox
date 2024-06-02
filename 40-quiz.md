@@ -46,7 +46,7 @@ Questions d'auto-évaluation sur Flexbox.
 <details>
   <summary>Voir la réponse</summary>
   <p>1 et 3 sont justes.</p>
-  <p>Leur largeur sera égale, et remplira l'espace disponible. Voir <a href="methode-simple.html">méthode simple</a> / <a href=https://cours-web.ch/css/selectors.html">sélecteurs CSS</a>.</p>
+  <p>Leur largeur sera égale, et remplira l'espace disponible. Voir <a href="methode-simple.html">méthode simple</a> / <a href="https://cours-web.ch/css/selectors.html">sélecteurs CSS</a>.</p>
 </details>
 
 ---
@@ -87,6 +87,18 @@ Questions d'auto-évaluation sur Flexbox.
 <details>
   <summary>Voir la réponse</summary>
   <p>Faux. Il n'y a aucun problème à l'utiliser plusieurs fois sur une page.</p>
+</details>
+
+---
+
+**Il est obligatoire de déclarer `display:flex` sur l'élément conteneur.**
+
+- [ ] Vrai.
+- [ ] Faux.
+
+<details>
+  <summary>Voir la réponse</summary>
+  <p>Vrai. C'est nécessaire pour utiliser Flexbox.</p>
 </details>
 
 ---
