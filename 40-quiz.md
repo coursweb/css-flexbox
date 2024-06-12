@@ -6,6 +6,10 @@ permalink: quiz.html
 
 Questions d'auto-évaluation sur Flexbox.
 
+Vous trouvez ces questions [aussi dans un Kahoot](https://create.kahoot.it/share/css-flexbox/8f082d38-6a72-4175-ac10-2f8152d6ef86).
+
+---
+
 **1. Comment initaliser Flexbox ?**
 
 - [ ] display : flexbox
